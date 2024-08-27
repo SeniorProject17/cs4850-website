@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #f6cd00;
+    color: rgb(1, 0, 0);
+    padding: 1em 0;
+    text-align: center;
+}
+
+header .school-logo {
+    width: 300px;
+    display: block;
+    margin: 0.5em auto;
+}
+
+.project-description, .team-members {
+    padding: 2em;
+    background-color: white;
+    margin: 1em auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-description h2, .team-members h2 {
+    color: #000000;
+}
+
+.project-description p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.project-description .project-image {
+    display: block;
+    margin: 1em auto;
+    width: 150px;
+    height: auto;
+}
+
+.team-members {
+    text-align: center;
+}
+
+.team-members .member {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+}
+
+.team-members .member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.team-members .member p {
+    margin-top: 0.5em;
+    font-size: 1.1em;
+}
